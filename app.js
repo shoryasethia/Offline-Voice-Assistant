@@ -53,6 +53,10 @@ function readOutLoud(message) {
         if (!isNaN(brightnessValue) && brightnessValue >= 0 && brightnessValue <= 100) {
             speech.text = `Setting light brightness to ${brightnessValue} percent`;
             console.log(brightnessValue);
+
+            const sliderValue = brightnessValue ;
+            sendSliderValue(sliderValue);
+
         } else {
             speech.text = 'Invalid brightness value. Please choose a value between 0 and 100.';
             console.log("Invalid Command");
