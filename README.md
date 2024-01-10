@@ -7,6 +7,13 @@ percent" or "Set fan speed to 4", the backend code intelligently extracts meanin
 after a mathematical operation, finally assistant says an event concluding statement involving that integer value.
 
 **To Clone this repo**
-use terminal command
+>use terminal command
 `git clone https://github.com/shoryasethia/voice-control   `
->
+
+**Change esp32 server's ip by editing in this peice of code in `app.js`**
+```
+function sendSliderValue(value) {
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", "http://192.168.43.119/slider?value=" + value, true);
+    xhr.send();
+}
