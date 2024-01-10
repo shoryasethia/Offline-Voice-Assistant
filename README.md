@@ -6,10 +6,9 @@ percent" or "Set fan speed to 4", the backend code intelligently extracts meanin
 • In real-time it adjusted corresponding lights or fans, by targeting slider variable and changing pwm values 
 after a mathematical operation, finally assistant says an event concluding statement involving that integer value.
 
-**To Clone this repo**
-use terminal command
+**To Clone this repo use terminal command**
 ```
-`git clone https://github.com/shoryasethia/voice-control   `
+git clone https://github.com/shoryasethia/voice-control   
 ```
 **Change esp32 server's ip by editing in this peice of code in `app.js`**
 ```
