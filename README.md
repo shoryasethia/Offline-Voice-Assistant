@@ -10,7 +10,7 @@ after a mathematical operation, finally assistant says an event concluding state
 use terminal command
 ```
 `git clone https://github.com/shoryasethia/voice-control   `
-
+```
 **Change esp32 server's ip by editing in this peice of code in `app.js`**
 ```
 function sendSliderValue(value) {
