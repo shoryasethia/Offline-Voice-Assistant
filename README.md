@@ -8,7 +8,7 @@ after a mathematical operation, finally assistant says an event concluding state
 
 **To Clone this repo use terminal command**
 ```
-git clone https://github.com/shoryasethia/voice-control   
+git clone https://github.com/shoryasethia/Offline-Voice-Assistant
 ```
 **Change esp32 server's ip by editing in this peice of code in `app.js`**
 ```
